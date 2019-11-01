@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".help"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/bt_rag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ragging"
+
+            android:textSize="30dp"
+            android:padding="5dp"
+            android:background="#2e1886"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/bt_tor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Torture"
+
+            android:textSize="30dp"
+            android:padding="5dp"
+            android:background="#71ce37"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/bt_peer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peer pressure"
+
+            android:textSize="30dp"
+            android:padding="5dp"
+            android:background="#2e1886"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/bt_soc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Socialism"
+
+            android:textSize="30dp"
+            android:padding="5dp"
+            android:background="#71ce37"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+
+            />
+
+
+    </LinearLayout>
+
